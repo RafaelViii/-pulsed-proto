@@ -1,4 +1,3 @@
-login.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,7 +73,7 @@ login.html
     }
 
     .input-group input {
-      width: 100%;
+      width: 90%;
       padding: 14px 16px;
       border: 1.5px solid #dbe2ea;
       background: #f7f8fa;
@@ -451,7 +450,7 @@ login.html
           showModal("Login successful!");
           setTimeout(() => {
             hideModal();
-            window.location.href = "admin-panel.html";
+            window.location.href = "dex.html"; // Redirect to the main page
           }, 650);
         })
         .catch((error) => {
